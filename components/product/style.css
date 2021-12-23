@@ -1,0 +1,26 @@
+.pictureMain{
+    width: 400px;
+    border: solid 3px #222;
+    border-radius: 5px;
+}
+.title, .price, .description, .buttonDescription, .buyButton{
+    margin: 10px;
+}
+.buttonDescription{
+    margin-bottom: 0px;
+    width: 100%;
+}
+.description{
+    margin-top: 0px;
+    height: 0px;
+    visibility: hidden;
+}
+.description:hover{
+    height: auto;
+    visibility: visible;
+}
+.buttonDescription:hover + .description{
+    height: auto;
+    visibility: visible;
+}
+
